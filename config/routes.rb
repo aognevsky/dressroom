@@ -2,7 +2,7 @@ ActionController::Routing::Routes.draw do |map|
 	
 	map.root :controller => 'home'
 	
-	map.resources :users	
+	map.resources :users, :settings
 	map.resource :session
 	
   map.logout '/logout', :controller => 'sessions', :action => 'destroy'

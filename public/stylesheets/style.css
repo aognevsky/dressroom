@@ -1,5 +1,19 @@
+body {
+	font-family: "Arial";
+	font-size: 12px;
+	color: #333;
+}
+
 #login-box {
 	position: fixed;
 	top: 10px;
 	right: 10px;
+}
+
+a {
+	color: #0000cc;
+}
+
+a:hover {
+	color: #cc0000;
 }

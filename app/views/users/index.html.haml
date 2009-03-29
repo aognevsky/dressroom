@@ -5,6 +5,8 @@
 %h1 List of all users
 
 %ol
-  -for user in @users do
+  -for user in @users
     %li
       =link_to user.login, users_path + '/' + user.id.to_s
+      
+      

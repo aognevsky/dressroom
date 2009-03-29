@@ -947,3 +947,907 @@ Rendering users/show
   [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
 Rendered users/_user_bar (4.4ms)
 Completed in 54ms (View: 15, DB: 7) | 200 OK [http://localhost/users/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-28 15:12:16) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mDetail Load (0.3ms)[0m   [0mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;36;1mDetail Columns (3.4ms)[0m   [0;1mSHOW FIELDS FROM `details`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (2.9ms)
+Completed in 26ms (View: 11, DB: 8) | 200 OK [http://localhost/users/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-28 15:12:29) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;35;1mDetail Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `details`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (2.8ms)
+Completed in 23ms (View: 9, DB: 5) | 200 OK [http://localhost/users/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:16:37) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (1.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mDetail Load (1.3ms)[0m   [0mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;36;1mDetail Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `details`[0m
+  [4;35;1mUser Load (1.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (4.2ms)
+Completed in 26ms (View: 10, DB: 8) | 200 OK [http://localhost/users/1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:16:38) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;35;1mDetail Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `details`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (5.1ms)
+Completed in 28ms (View: 13, DB: 6) | 200 OK [http://localhost/users/1]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:16:39) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (3.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mDetail Load (0.3ms)[0m   [0mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;36;1mDetail Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `details`[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (3.6ms)
+Completed in 28ms (View: 13, DB: 7) | 200 OK [http://localhost/users/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:16:40) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (3.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;35;1mDetail Columns (3.2ms)[0m   [0mSHOW FIELDS FROM `details`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (4.2ms)
+Completed in 29ms (View: 13, DB: 8) | 200 OK [http://localhost/users/1]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:17:40) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (3.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mDetail Load (0.3ms)[0m   [0mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;36;1mDetail Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `details`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (3.0ms)
+Completed in 29ms (View: 15, DB: 6) | 200 OK [http://localhost/users/1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:17:42) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mDetail Load (0.2ms)[0m   [0;1mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;35;1mDetail Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `details`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (3.0ms)
+Completed in 22ms (View: 9, DB: 5) | 200 OK [http://localhost/users/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:19:11) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (2.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mDetail Load (0.3ms)[0m   [0mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;36;1mDetail Columns (3.2ms)[0m   [0;1mSHOW FIELDS FROM `details`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (4.5ms)
+Completed in 93ms (View: 77, DB: 8) | 200 OK [http://localhost/users/1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2009-03-29 01:20:22) [GET]
+  Parameters: {"id"=>"1"}
+
+SyntaxError (/Users/elfxf/rails/dressroom/app/controllers/users_controller.rb:5: syntax error, unexpected tASSOC, expecting kEND
+		:title => "123"
+		         ^):
+  
+
+Rendered rescues/_trace (28.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2009-03-29 01:20:38) [GET]
+  Parameters: {"id"=>"1"}
+
+SyntaxError (/Users/elfxf/rails/dressroom/app/controllers/users_controller.rb:5: syntax error, unexpected '=', expecting kEND
+		:title = "123"
+		        ^):
+  
+
+Rendered rescues/_trace (27.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:20:49) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;35;1mDetail Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `details`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (3.2ms)
+Completed in 92ms (View: 77, DB: 7) | 200 OK [http://localhost/users/1]
+  [4;35;1mSQL (1.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:21:00) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (28.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.9ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mDetail Load (0.4ms)[0m   [0mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;36;1mDetail Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `details`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (3.1ms)
+Completed in 57ms (View: 17, DB: 33) | 200 OK [http://localhost/users/1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:24:11) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;35;1mDetail Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `details`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (2.9ms)
+Completed in 31ms (View: 17, DB: 6) | 200 OK [http://localhost/users/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:24:51) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mDetail Load (0.3ms)[0m   [0mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;36;1mDetail Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `details`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (2.9ms)
+Completed in 30ms (View: 15, DB: 6) | 200 OK [http://localhost/users/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:25:32) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;35;1mDetail Columns (2.6ms)[0m   [0mSHOW FIELDS FROM `details`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (3.7ms)
+Completed in 81ms (View: 13, DB: 6) | 200 OK [http://localhost/users/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:25:32) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mDetail Load (0.3ms)[0m   [0mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;36;1mDetail Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `details`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (3.4ms)
+Completed in 27ms (View: 13, DB: 6) | 200 OK [http://localhost/users/1]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:28:46) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;35;1mDetail Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `details`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (2.8ms)
+Completed in 29ms (View: 14, DB: 6) | 200 OK [http://localhost/users/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:29:40) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (3.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mDetail Load (0.3ms)[0m   [0mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;36;1mDetail Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `details`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (1.7ms)
+Completed in 29ms (View: 14, DB: 8) | 200 OK [http://localhost/users/1]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:29:47) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+ERROR: compiling _run_haml_app47views47users47show46html46haml RAISED compile error
+/Users/elfxf/rails/dressroom/app/views/users/show.html.haml:3: syntax error, unexpected ';'
+/Users/elfxf/rails/dressroom/app/views/users/show.html.haml:8: syntax error, unexpected kENSURE, expecting kEND
+/Users/elfxf/rails/dressroom/app/views/users/show.html.haml:10: syntax error, unexpected $end, expecting kEND
+Function body:           def _run_haml_app47views47users47show46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:format=>:xhtml, :attr_wrapper=>"'", :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :ugly=>false, :preserve=>["textarea", "pre"]});_erbout = _hamlout.buffer;__in_erb_template = true;; content_for :head do;
+
+_hamlout.push_text("<title>User profile:</title>\n"); @user.login<;
+
+end;haml_temp =  @user.detail.icq;
+haml_temp = _hamlout.push_script(haml_temp, false, false, false, false, false);
+@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/elfxf/rails/dressroom/app/views/users/show.html.haml:10:in `compile!'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render_without_haml'
+/Users/elfxf/.gem/ruby/1.8/gems/haml-2.0.9/lib/haml/helpers/action_view_mods.rb:14:in `render'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:343:in `_render_with_layout'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:257:in `render_without_haml'
+/Users/elfxf/.gem/ruby/1.8/gems/haml-2.0.9/lib/haml/helpers/action_view_mods.rb:14:in `render'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/elfxf/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/elfxf/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/elfxf/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/elfxf/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/elfxf/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/elfxf/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `sass_old_process'
+/Users/elfxf/.gem/ruby/1.8/gems/haml-2.0.9/lib/sass/plugin/rails.rb:19:in `process'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/Users/elfxf/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/elfxf/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/Users/elfxf/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/chunked.rb:15:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:61:in `process'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:34:in `run'
+/Users/elfxf/.gem/ruby/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/elfxf/rails/dressroom/app/views/users/show.html.haml:3: syntax error, unexpected ';'
+/Users/elfxf/rails/dressroom/app/views/users/show.html.haml:8: syntax error, unexpected kENSURE, expecting kEND
+/Users/elfxf/rails/dressroom/app/views/users/show.html.haml:10: syntax error, unexpected $end, expecting kEND) on line #3 of app/views/users/show.html.haml:
+1: - content_for :head do
+2:   %title User profile: 
+3:   - @user.login<
+4:   
+5: = @user.detail.icq
+
+    app/views/users/show.html.haml:10:in `compile!'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (37.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:30:23) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;35;1mDetail Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `details`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (1.9ms)
+Completed in 31ms (View: 16, DB: 7) | 200 OK [http://localhost/users/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:31:18) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mDetail Load (0.4ms)[0m   [0mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;36;1mDetail Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `details`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (2.0ms)
+Completed in 33ms (View: 17, DB: 7) | 200 OK [http://localhost/users/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:31:34) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (3.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mDetail Load (0.7ms)[0m   [0;1mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;35;1mDetail Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `details`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (1.5ms)
+Completed in 29ms (View: 13, DB: 7) | 200 OK [http://localhost/users/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:31:42) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (12.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mDetail Load (0.3ms)[0m   [0mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;36;1mDetail Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `details`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (1.6ms)
+Completed in 36ms (View: 12, DB: 15) | 200 OK [http://localhost/users/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:32:26) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (3.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mDetail Load (0.4ms)[0m   [0;1mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;35;1mDetail Columns (2.7ms)[0m   [0mSHOW FIELDS FROM `details`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (2.6ms)
+Completed in 32ms (View: 16, DB: 8) | 200 OK [http://localhost/users/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:32:39) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (3.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (1.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %title and nested within it.) on line #3 of app/views/users/show.html.haml:
+1: - content_for :head do
+2:   %title User profile:
+3:     = @user.login
+4:   
+5: = @user.detail.icq
+
+    app/views/users/show.html.haml:3
+    haml (2.0.9) lib/haml/precompiler.rb:585:in `render_tag'
+    haml (2.0.9) lib/haml/precompiler.rb:192:in `process_line'
+    haml (2.0.9) lib/haml/precompiler.rb:156:in `precompile'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each_with_index'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `precompile'
+    haml (2.0.9) lib/haml/engine.rb:100:in `initialize'
+    haml (2.0.9) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.0.9) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (44.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:33:12) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (3.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mDetail Load (0.3ms)[0m   [0mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;36;1mDetail Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `details`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (1.5ms)
+Completed in 28ms (View: 14, DB: 6) | 200 OK [http://localhost/users/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:33:21) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.9ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;35;1mDetail Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `details`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (1.4ms)
+Completed in 88ms (View: 70, DB: 7) | 200 OK [http://localhost/users/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:33:22) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.9ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mDetail Load (0.3ms)[0m   [0mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;36;1mDetail Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `details`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (1.8ms)
+Completed in 29ms (View: 13, DB: 7) | 200 OK [http://localhost/users/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:35:07) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;35;1mDetail Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `details`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (1.5ms)
+Completed in 30ms (View: 17, DB: 6) | 200 OK [http://localhost/users/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:35:20) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (3.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mDetail Load (0.3ms)[0m   [0mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;36;1mDetail Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `details`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (1.4ms)
+Completed in 29ms (View: 13, DB: 7) | 200 OK [http://localhost/users/1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:35:37) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (1.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+ERROR: compiling _run_haml_app47views47users47show46html46haml RAISED compile error
+/Users/elfxf/rails/dressroom/app/views/users/show.html.haml:4: syntax error, unexpected ';'
+Function body:           def _run_haml_app47views47users47show46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:format=>:xhtml, :attr_wrapper=>"'", :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :ugly=>false, :preserve=>["textarea", "pre"]});_erbout = _hamlout.buffer;__in_erb_template = true;; content_for :head do;
+
+
+_hamlout.push_text("<title>User profile:\n");haml_temp =  @user.login<;
+haml_temp = _hamlout.push_script(haml_temp, false, false, false, false, false);
+_erbout.rstrip!;_hamlout.push_text("</title>\n", true);end;
+_hamlout.push_text("<b>icq:</b>\n");haml_temp =  @user.detail.icq;
+haml_temp = _hamlout.push_script(haml_temp, false, false, false, false, false);
+@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/elfxf/rails/dressroom/app/views/users/show.html.haml:12:in `compile!'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render_without_haml'
+/Users/elfxf/.gem/ruby/1.8/gems/haml-2.0.9/lib/haml/helpers/action_view_mods.rb:14:in `render'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:343:in `_render_with_layout'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:257:in `render_without_haml'
+/Users/elfxf/.gem/ruby/1.8/gems/haml-2.0.9/lib/haml/helpers/action_view_mods.rb:14:in `render'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/elfxf/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/elfxf/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/elfxf/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/elfxf/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/elfxf/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/elfxf/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `sass_old_process'
+/Users/elfxf/.gem/ruby/1.8/gems/haml-2.0.9/lib/sass/plugin/rails.rb:19:in `process'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/Users/elfxf/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/elfxf/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/Users/elfxf/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/chunked.rb:15:in `call'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:61:in `process'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Users/elfxf/.gem/ruby/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:34:in `run'
+/Users/elfxf/.gem/ruby/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/elfxf/rails/dressroom/app/views/users/show.html.haml:4: syntax error, unexpected ';') on line #4 of app/views/users/show.html.haml:
+1: - content_for :head do
+2:   %title<
+3:     User profile:
+4:     = @user.login<
+5: 
+6: %b icq:
+7: = @user.detail.icq
+
+    app/views/users/show.html.haml:12:in `compile!'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (38.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:36:02) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %title and nested within it.) on line #3 of app/views/users/show.html.haml:
+1: - content_for :head do
+2:   %title< User profile:
+3:     = @user.login
+4: 
+5: %b icq:
+6: = @user.detail.icq
+
+    app/views/users/show.html.haml:3
+    haml (2.0.9) lib/haml/precompiler.rb:585:in `render_tag'
+    haml (2.0.9) lib/haml/precompiler.rb:192:in `process_line'
+    haml (2.0.9) lib/haml/precompiler.rb:156:in `precompile'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each_with_index'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `precompile'
+    haml (2.0.9) lib/haml/engine.rb:100:in `initialize'
+    haml (2.0.9) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.0.9) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (44.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:36:23) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;35;1mDetail Columns (2.7ms)[0m   [0mSHOW FIELDS FROM `details`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (2.3ms)
+Completed in 28ms (View: 14, DB: 6) | 200 OK [http://localhost/users/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:39:07) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (2.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %title and nested within it.) on line #3 of app/views/users/show.html.haml:
+1: - content_for :head do
+2:   %title< User profile:
+3:     = @user.login
+4: 
+5: %b icq:
+6: = @user.detail.icq
+
+    app/views/users/show.html.haml:3
+    haml (2.0.9) lib/haml/precompiler.rb:585:in `render_tag'
+    haml (2.0.9) lib/haml/precompiler.rb:192:in `process_line'
+    haml (2.0.9) lib/haml/precompiler.rb:156:in `precompile'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each_with_index'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `precompile'
+    haml (2.0.9) lib/haml/engine.rb:100:in `initialize'
+    haml (2.0.9) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.0.9) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (44.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:39:36) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mDetail Load (0.3ms)[0m   [0mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;36;1mDetail Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `details`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (1.9ms)
+Completed in 31ms (View: 16, DB: 7) | 200 OK [http://localhost/users/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:42:42) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;35;1mDetail Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `details`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (1.4ms)
+Completed in 24ms (View: 9, DB: 6) | 200 OK [http://localhost/users/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:50:59) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mDetail Load (0.4ms)[0m   [0mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;36;1mDetail Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `details`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (2.9ms)
+Completed in 29ms (View: 13, DB: 7) | 200 OK [http://localhost/users/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:51:48) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;35;1mDetail Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `details`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (2.9ms)
+Completed in 25ms (View: 12, DB: 6) | 200 OK [http://localhost/users/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:52:09) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (2.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mDetail Load (0.3ms)[0m   [0mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;36;1mDetail Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `details`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (2.9ms)
+Completed in 27ms (View: 13, DB: 6) | 200 OK [http://localhost/users/1]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:52:42) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;36;1mDetail Load (0.3ms)[0m   [0;1mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;35;1mDetail Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `details`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (2.8ms)
+Completed in 28ms (View: 12, DB: 8) | 200 OK [http://localhost/users/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-03-29 01:52:57) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Columns (3.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (1.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+  [4;35;1mDetail Load (0.4ms)[0m   [0mSELECT * FROM `details` WHERE (`details`.user_id = 1) LIMIT 1[0m
+  [4;36;1mDetail Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `details`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered users/_user_bar (1.9ms)
+Completed in 97ms (View: 20, DB: 9) | 200 OK [http://localhost/users/1]

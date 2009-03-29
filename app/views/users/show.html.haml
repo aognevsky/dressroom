@@ -1,1 +1,7 @@
+- content_for :head do
+  %title<
+    User profile:
+    = @user.login
+
+%b icq:
 = @user.detail.icq

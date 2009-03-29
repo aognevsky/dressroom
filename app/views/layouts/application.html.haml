@@ -1,8 +1,7 @@
 !!!
 %html{html_attrs()}
   %head
-    %title ognevsky
-    
+    = yield :head
   %body
     = render :partial => "users/user_bar"
     = yield

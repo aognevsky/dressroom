@@ -1,7 +1,11 @@
 !!!
 %html{html_attrs()}
   %head
+    = stylesheet_link_tag :all
     = yield :head
   %body
-    = render :partial => "users/user_bar"
-    = yield
+    #container
+      #login-box
+        = render :partial => "users/user_bar"
+
+      = yield

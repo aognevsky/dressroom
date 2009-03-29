@@ -7,12 +7,26 @@ class UsersController < ApplicationController
 	def show
 		@user = User.find(params[:id])
 	end
-	
-	
-	# render new.rhtml
+
 	def new
 		@user = User.new
 	end
+
+	def edit
+		@user = User.find(params[:id])		
+	end
+
+	def update
+		@user = User.find(params[:id])		
+
+		if @user.update_attributes(params[:user])
+			flash[:notice] = 'Text was successfully updated.'
+			redirect_to(@user)
+		else
+			render :action => "edit"
+		end
+	end
+
 
 	def create
 		logout_keeping_session!

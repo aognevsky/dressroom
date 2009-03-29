@@ -4,11 +4,11 @@
 
 %h1= "Settings for user #{@user.login}"
 
--form_for :user, :url => edit_user_path do |f|
+-form_for(@user) do |f|
   %p
-    =label_tag 'login'
+    =label_tag 'name'
     %br
-    =f.text_field :login
+    =f.text_field :name
     
   %p
     =label_tag 'email'

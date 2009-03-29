@@ -1,6 +1,6 @@
 body {
 	font-family: "Arial";
-	font-size: 12px;
+	font-size: 14px;
 	color: #333;
 }
 
@@ -16,4 +16,14 @@ a {
 
 a:hover {
 	color: #cc0000;
+}
+
+.error {
+	font-size: 120%;
+	color: #FFCCCC;	
+}
+
+.notice {
+	font-size: 120%;	
+	color: #ccFFcc;
 }

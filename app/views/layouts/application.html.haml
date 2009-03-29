@@ -4,8 +4,14 @@
     = stylesheet_link_tag :all
     = yield :head
   %body
-    #container
-      #login-box
-        = render :partial => "users/user_bar"
+    -if flash[:notice]
+      %p.notice
+        =flash[:notice]
+    -if flash[:error]
+      %p.error
+        =flash[:error]
+        
+    #login-box
+      = render :partial => "users/user_bar"
 
-      = yield
+    = yield

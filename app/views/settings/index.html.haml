@@ -1,0 +1,13 @@
+-content_for :head do
+  %title
+    DressRoom &mdash; Profile settings
+
+%h1<
+  Settings for user 
+  =@user.login
+
+%ul
+  %li
+    =@user.detail.icq
+  %li
+    =@user.detail.skype
